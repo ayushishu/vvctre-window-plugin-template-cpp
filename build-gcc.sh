@@ -1,3 +1,5 @@
 #!/usr/bin/env bash
 
-g++ -o plugin27.so -shared plugin.cpp
+VVCTRE_VERSION=28.x.x
+
+g++ -o plugin-vvctre-$VVCTRE_VERSION.so -shared plugin.cpp
