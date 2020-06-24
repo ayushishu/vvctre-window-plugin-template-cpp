@@ -6,7 +6,7 @@ static const char* required_function_names[] = {"vvctre_gui_begin", "vvctre_gui_
 
 using vvctre_gui_begin_t = bool (*)(const char* name);
 using vvctre_gui_end_t = void (*)();
-using vvctre_gui_text_t = bool (*)(const char* text);
+using vvctre_gui_text_t = void (*)(const char* text);
 
 static vvctre_gui_begin_t vvctre_gui_begin;
 static vvctre_gui_end_t vvctre_gui_end;
