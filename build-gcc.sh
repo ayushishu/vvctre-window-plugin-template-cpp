@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-g++ -o plugin.so -shared plugin.cpp
+g++ -o window.so -shared plugin.cpp
